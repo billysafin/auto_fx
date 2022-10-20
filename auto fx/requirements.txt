@@ -1,0 +1,14 @@
+#一括更新: pip freeze --local | grep -v '^\-e' | cut -d = -f 1 | xargs pip install -U pip
+tensorflow
+#tensorflow-gpu
+numpy
+pyOpenSSL
+requests
+urllib3
+pandas_datareader
+pandas
+sklearn
+keras
+matplotlib
+datetime
+japanize-matplotlib
